@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: #636363;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+
+
+#text{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f9f9f98a;
+    /* color: white; */
+
+
+}
+
+[placeholder="Please Give a text"]{
+    /* font-stretch: 100; */
+}
